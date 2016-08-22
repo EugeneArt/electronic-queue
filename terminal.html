@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Электронная очередь</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js"></script>
+</head>
+<body onload="startTime()">
+    <header>
+    <div class="logo">
+        <span>HORIZONT</span>
+        <div class="logo-bottom">Электронная очередь</div>
+    </div> 
+    <div class="widget">
+        <em id="clock" class="widget-clock"></em>
+        <div class="widget-right">
+            <em id="date" class="widget-date" >9 августа</em>
+            <em id="year" class="widget-year">2016</em> 
+        </div>
+    </div>   
+    </header>
+    <nav>
+        <ul class="menu">
+            <li class="menu-item"><a href="#">Общий анализ крови <sup>(+глюкоза)</sup></a></li>
+            <li class="menu-item"><a href="#">Срочный анализ крови <sup>(CITO)</sup></a></li>
+            <li class="menu-item"><a href="#">Платный анализ крови <sup>(профосмотр)</sup></a></li>
+            <li class="menu-item"><a href="#">Внеочередное обслуживание</a></li>
+            <li class="menu-item"><a href="#">Тест на гликированный гемоглобин</a></li>
+        </ul>
+    </nav>
+    <footer>
+        <marquee>Городская клиническая поликлиника</marquee>
+    </footer>
+    <div id="print" class="print">
+           <h2 class="print-title center">Идёт печать чека...</h2>
+            <img class="prin-img center"src="printer.gif" alt="print">
+    </div>
+
+</body>
+</html>

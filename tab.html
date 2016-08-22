@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Кабинет врача</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js"></script>
+</head>
+<body onload="startTime()">
+    <header>
+    <div class="logo">
+        <span>HORIZONT</span>
+        <div class="logo-bottom">Электронная очередь</div>
+    </div> 
+    <div class="widget">
+        <em id="clock" class="widget-clock"></em>
+        <div class="widget-right">
+            <em id="date" class="widget-date" >9 августа</em>
+            <em id="year" class="widget-year">2016</em> 
+        </div>
+    </div>   
+    </header>
+    <nav id="nav">
+            <ul id="patient" class="doc-item patient-call">
+                <li><a href="#" id="patient-call" class="patient-item">Вызов пациента</a></li>
+                <li><a href="#"  id="patient-call-repeat" class="patient-item">Повторный вызов пациента</a></li>
+                <li><a href="#"  id="patient-call-next" class="patient-item">Следующий пациент</a></li>
+            </ul>
+            <ul id="reception" class=" doc-item reception">
+                <li><a href="#" id="start-reception" class="reception-item">Начать приём</a></li>
+                <li><a href="#" id="end-reception" class="reception-item">Завершить приём</a></li>
+                <li><a href="#" id="reception-timer" class="reception-item">12:30</a></li>  
+            </ul>
+            <ul id="break" class="doc-item break">
+                <li><a href="#" id="start-break" class="break-item">Перерыв</a></li>
+                <li><a href="#" id="end-break" class="break-item">Закончить перерыв</a></li>
+                <li><a href="#" id="break-timer" class="break-item">12:30</a></li>
+                <li id="ticket-all" class="ticket-all">Талонов в очереди: <span>17</span></li>
+                
+            </ul>
+            <ul id="ticket" class="ticket">
+                <li class="ticket-number">Талон: <span>Т34</span></li>
+                <li class="ticket-all">Талонов в очереди: <span>17</span></li>
+            </ul>
+    </nav>
+</body>
+</html>

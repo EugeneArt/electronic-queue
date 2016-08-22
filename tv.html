@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Электронная очередь</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js"></script>
+</head>
+<body onload="startTime()">
+    <header>
+    <div class="logo">
+        <span>HORIZONT</span>
+        <div class="logo-bottom">Электронная очередь</div>
+    </div> 
+    <div class="widget">
+        <em id="clock" class="widget-clock"></em>
+        <div class="widget-right">
+            <em id="date" class="widget-date" >9 августа</em>
+            <em id="year" class="widget-year">2016</em> 
+        </div>
+    </div>   
+    </header>
+    <div class="container">
+       <div class="container-table">
+            <table class="table">
+                <tr class="table-title">
+                    <th>Пациент</th>
+                    <th class="table-title-sl">Рабочее место</th>
+                    <th class="table-title-lg">Кабинет</th>
+                    
+                </tr>
+                <tr class="table-item">
+                    <td>136</td>
+                    <td class="table-item-sl">2</td>
+                    <td class="table-item-lg">2</td>
+                </tr>
+                <tr class="table-item">
+                    <td>137</td>
+                    <td>3</td>
+                </tr>
+                <tr class="table-item">
+                    <td>138</td>
+                    <td>4</td>
+                </tr>
+                <tr class="table-item">
+                    <td>139</td>
+                    <td>1</td>
+                </tr> 
+            </table>
+        </div>
+        <div class="container-slider">
+            <div class="call">
+                <table class="call-table">
+                    <tr>
+                        <th>Пациент</th>
+                        <th>Кабинет</th>
+                        <th>Место</th>
+                    </tr>
+                    <tr>
+                    <td>136</td>
+                    <td>316</td>
+                    <td>1</td>
+                    </tr>
+                </table>
+            </div>
+           <div class="slider">
+                <img src="vr.jpg" alt="image-1" class="slide">
+                <img src="vr2.jpg" alt="image-1" class="slide">
+                <img src="vr3.jpg" alt="image-1" class="slide">
+                 <img src="vr4.jpg" alt="image-1" class="slide">
+           </div>
+        </div>
+    </div>
+    <footer>
+        <marquee>Городская клиническая поликлиника</marquee>
+    </footer>
+    <div id="print" class="print">
+           <h2 class="print-title center">Идёт печать чека...</h2>
+            <img class="prin-img center"src="printer.gif" alt="print">
+    </div>
+</body>
+</html>
